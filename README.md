@@ -48,7 +48,7 @@ console.log(JPEpicenterToKR("350"))
   console.log(JPEpicenterToKR("350"));
   ```
 - JSON 데이터(data/*.json)는 정기적으로 업데이트됩니다.  
-  새 지역명이나 지진구역이 추가된 경우, ```npm update jma-lang-ko```로 최신 버전을 받아주세요.
+  새로운 관측점 등 코드가 추가된 경우, ```npm update jma-lang-ko```로 최신 버전을 받아주세요.
 
 ## 🧾 라이선스
 MIT License © 2025 monggae0319
