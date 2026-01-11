@@ -57,7 +57,7 @@ console.log(earthquake.EarthquakeWarningKR('31'))
 
 ## 참고
 - [스프레드시트](https://docs.google.com/spreadsheets/d/17cB-37OMFv_xTEbMl0HCRVv635JfL1TiuYq6dff8Gdw/edit?usp=sharing) 에서 코드를 확인하실 수 있습니다.
-- [JMA 지진 화산 관련 XML 전문 해설 자료]()에서 코드의 적용 장소를 확인할 수 있습니다.
+- [JMA 지진 화산 관련 XML 전문 해설 자료](https://docs.google.com/document/d/1OP7uViQ5Xldd2slCO8BKJOhEq0IS-fy5NHllnm3vUiU/edit?usp=sharing)에서 코드의 적용 장소를 확인할 수 있습니다.
   - 해당 문서는 현재 미완성이며 오류가 있을 수 있습니다. 파일은 수시 업데이트 됩니다.
 
 ## ⚠️ 주의사항
