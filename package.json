@@ -1,13 +1,24 @@
 {
   "name": "jma-lang-ko",
   "version": "2.0.0",
-  "description": "Translate JMA-related Japanese terms (epicenter, region, tsunami) into Korean",
+  "description": "Translate Japan Meteorological Agency (JMA) disaster codes into Korean",
   "type": "module",
-  "main": "index.js",
   "exports": {
     ".": "./src/index.js"
   },
-  "keywords": ["jma", "japan", "translate", "korean"],
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "jma",
+    "japan",
+    "earthquake",
+    "tsunami",
+    "volcano",
+    "disaster",
+    "translate",
+    "korean"
+  ],
   "author": "monggae0319",
   "license": "MIT"
 }
