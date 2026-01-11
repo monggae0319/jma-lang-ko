@@ -1,11 +1,11 @@
 {
   "name": "jma-lang-ko",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Translate JMA-related Japanese terms (epicenter, region, tsunami) into Korean",
   "type": "module",
   "main": "index.js",
   "exports": {
-    ".": "./index.js"
+    ".": "./src/index.js"
   },
   "keywords": ["jma", "japan", "translate", "korean"],
   "author": "monggae0319",
