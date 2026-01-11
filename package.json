@@ -1,6 +1,6 @@
 {
   "name": "jma-lang-ko",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Translate Japan Meteorological Agency (JMA) disaster codes into Korean",
   "type": "module",
   "exports": {
