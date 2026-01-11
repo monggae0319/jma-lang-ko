@@ -31,8 +31,8 @@ console.log(earthquake.EarthquakeWarningKR('31'))
 | AreaForecastLocalEEWKR | ”地震情報／都道府県等”<br>"지진정보 / 도도부현 등" | 01 | "홋카이도" |
 | AreaInformationPrefectureEarthquakeKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9910 | "홋카이도" |
 | AreaForecastLocalEKR | ”地震情報／細分区域”<br>"지진정보 / 세분 구역" | 100 | "이시카리 지방 북부" |
-| AreaInformationCityKR | ”震度観測点”<br>"진도 관측점" | 0123500 | "이시카리 시 하나가와" |
-| PointSeismicIntensityKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9910 | "홋카이도" |
+| AreaInformationCityKR | “気象・地震・火山情報／市町村等”<br>"기상・지진・화산정보 / 시정촌 등" | 0123500 | "이시카리 시" |
+| PointSeismicIntensityKR | ”震度観測点”<br>"진도 관측점" | 0123500 | "이시카리 시 하나가와" |
 | AreaEpicenterKR | ”震央地名”<br>"진앙지명" | 011 | "홋카이도 지방" |
 | AreaEpicenterAbbreviationKR | ”短縮用震央地名”<br>"단축용 진앙지명" | 9011 | "홋카이도 도오" |
 | AreaEpicenterDetailKR | ”詳細震央地名”<br>"상세 진앙지명" | 1001 | "미국, 알래스카 주 중앙부" |
