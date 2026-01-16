@@ -19,9 +19,12 @@ import {earthquake, tsunami} from 'jma-lang-ko'
 console.log(earthquake.EarthquakeWarningKR('31'))
 // 출력 예시: 긴급지진속보(경보)
 console.log(tsunami.TsunamiWarningKR('00'))
-// 출력 예시: 긴급지진속보(경보)
+// 출력 예시: 해일 없음
 ```
-모든 함수는 ```string | number``` 타입의 코드를 입력받을 수 있습니다.
+
+```earthquake```, ```tsunami```, ```volcano``` 함수는 ```string | number``` 타입의 코드를 입력받을 수 있습니다.
+
+```jma``` 함수는 ```string``` 타입을 지원합니다.
 
 ## 🚩제공 함수
 ### earthquake
@@ -60,8 +63,8 @@ console.log(tsunami.TsunamiWarningKR('00'))
 ### jma
 | 함수명 | 코드 종류 | 입력값 | 출력값 |
 | --- | --- | :-: | --- |
-| KanshoKR | - | "札幌管区気象台" | "삿포로 관구 기상대" |
-| KanshoEnKR | - | "JPSP" | "삿포로 관구 기상대" |
+| OfficeKR | - | "札幌管区気象台" | "삿포로 관구 기상대" |
+| OfficeEnKR | - | "JPSP" | "삿포로 관구 기상대" |
 
 ## 참고
 - [스프레드시트](https://docs.google.com/spreadsheets/d/17cB-37OMFv_xTEbMl0HCRVv635JfL1TiuYq6dff8Gdw/edit?usp=sharing) 에서 코드를 확인하실 수 있습니다.

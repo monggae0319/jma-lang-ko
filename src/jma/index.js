@@ -12,7 +12,7 @@ export const jma = {
         * @example
         * jma.KanshoKR("札幌管区気象台"); // "삿포로 관구 기상대"
     */
-    KanshoKR : createTranslator(kansho),
+    OfficeKR : createTranslator(kansho),
 
     /**
      *  기상청 관서코드(영문)를 한국어로 변환합니다.
@@ -22,5 +22,5 @@ export const jma = {
         * @example
         * jma.KanshoEnKR("JPSP"); // "삿포로 관구 기상대"
     */
-    KanshoEnKR : createTranslator(kansho_en),
+    OfficeEnKR : createTranslator(kansho_en),
 }
