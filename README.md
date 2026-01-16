@@ -18,6 +18,8 @@ import {earthquake, tsunami} from 'jma-lang-ko'
 
 console.log(earthquake.EarthquakeWarningKR('31'))
 // 출력 예시: 긴급지진속보(경보)
+console.log(tsunami.TsunamiWarningKR('00'))
+// 출력 예시: 긴급지진속보(경보)
 ```
 모든 함수는 ```string | number``` 타입의 코드를 입력받을 수 있습니다.
 
@@ -27,7 +29,7 @@ console.log(earthquake.EarthquakeWarningKR('31'))
 | --- | --- | :-: | --- |
 | EarthquakeWarningKR | ”警報等情報要素／緊急地震速報”<br>"경보 등 정보 요소 / 긴급지진속보" | 00 | "없음" |
 | EarthquakeForecastKR | ”緊急地震速報”<br>"긴급지진속보" | 00 | "긴급지진속보(예보)" |
-| AreaForecastEEWKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 99011910 | "홋카이도 도오" |
+| AreaForecastEEWKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9910 | "홋카이도 도오" |
 | AreaForecastLocalEEWKR | ”地震情報／都道府県等”<br>"지진정보 / 도도부현 등" | 01 | "홋카이도" |
 | AreaInformationPrefectureEarthquakeKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9910 | "홋카이도" |
 | AreaForecastLocalEKR | ”地震情報／細分区域”<br>"지진정보 / 세분 구역" | 100 | "이시카리 지방 북부" |
@@ -54,6 +56,12 @@ console.log(earthquake.EarthquakeWarningKR('31'))
 | --- | --- | :-: | --- |
 | VolcanicWarningKR | ”警報等情報要素／噴火警報・予報等”<br>"경보 등 정보 요소 / 분화경보・예보 등" | 11 | "레벨 1 (활화산인 것에 유의)" |
 | PointVolcanoKR | ”火山名”<br>"화산명" | 101 | "시레토코 이오 산" |
+
+### jma
+| 함수명 | 코드 종류 | 입력값 | 출력값 |
+| --- | --- | :-: | --- |
+| KanshoKR | - | "札幌管区気象台" | "삿포로 관구 기상대" |
+| KanshoEnKR | - | "JPSP" | "삿포로 관구 기상대" |
 
 ## 참고
 - [스프레드시트](https://docs.google.com/spreadsheets/d/17cB-37OMFv_xTEbMl0HCRVv635JfL1TiuYq6dff8Gdw/edit?usp=sharing) 에서 코드를 확인하실 수 있습니다.

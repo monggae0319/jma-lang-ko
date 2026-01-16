@@ -13,7 +13,7 @@ export const tsunami = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * earthquake.TsunamiWarningKR("00"); // "해일 없음"
+        * tsunami.TsunamiWarningKR("00"); // "해일 없음"
     */
     TsunamiWarningKR : createTranslator(tsunami14),
 
@@ -23,7 +23,7 @@ export const tsunami = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * earthquake.AreaTsunamiKR("100"); // "홋카이도 태평양 연안 동부"
+        * tsunami.AreaTsunamiKR("100"); // "홋카이도 태평양 연안 동부"
     */
     AreaTsunamiKR : createTranslator(tsunami31),
 
@@ -33,7 +33,7 @@ export const tsunami = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * earthquake.CoastTsunamiKR("100"); // "홋카이도 태평양 연안 동부"
+        * tsunami.CoastTsunamiKR("100"); // "홋카이도 태평양 연안 동부"
     */
     CoastTsunamiKR : createTranslator(tsunami34),
 
@@ -43,7 +43,7 @@ export const tsunami = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * earthquake.PointTsunamiKR("10001"); // "쿠시로"
+        * tsunami.PointTsunamiKR("10001"); // "쿠시로"
     */
     PointTsunamiKR : createTranslator(tsunami35)
 }

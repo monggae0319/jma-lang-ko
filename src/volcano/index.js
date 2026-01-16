@@ -10,7 +10,7 @@ export const volcano = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * earthquake.VolcanicWarningKR("11"); // "레벨 1 (활화산인 것에 유의)"
+        * volcano.VolcanicWarningKR("11"); // "레벨 1 (활화산인 것에 유의)"
     */
     VolcanicWarningKR : createTranslator(volcano81),
 
@@ -20,7 +20,7 @@ export const volcano = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * earthquake.PointVolcanoKR("101"); // "시레토코 이오 산"
+        * volcano.PointVolcanoKR("101"); // "시레토코 이오 산"
     */
     PointVolcanoKR : createTranslator(volcano82),
 }
