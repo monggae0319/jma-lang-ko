@@ -33,8 +33,8 @@ console.log(tsunami.TsunamiWarningKR('00'))
 | EarthquakeWarningKR | ”警報等情報要素／緊急地震速報”<br>"경보 등 정보 요소 / 긴급지진속보" | 00 | "없음" |
 | EarthquakeForecastKR | ”緊急地震速報”<br>"긴급지진속보" | 00 | "긴급지진속보(예보)" |
 | AreaForecastEEWKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9910 | "홋카이도 도오" |
-| AreaForecastLocalEEWKR | ”地震情報／都道府県等”<br>"지진정보 / 도도부현 등" | 01 | "홋카이도" |
-| AreaInformationPrefectureEarthquakeKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9910 | "홋카이도" |
+| AreaForecastLocalEEWKR | ”緊急地震速報／地方予報区”<br>"긴급지진속보 / 지방 예보구" | 9011 | "홋카이도" |
+| AreaInformationPrefectureEarthquakeKR | ”地震情報／都道府県等”<br>"지진정보 / 도도부현 등" | 01 | "홋카이도" |
 | AreaForecastLocalEKR | ”地震情報／細分区域”<br>"지진정보 / 세분 구역" | 100 | "이시카리 지방 북부" |
 | AreaInformationCityKR | “気象・地震・火山情報／市町村等”<br>"기상・지진・화산정보 / 시정촌 등" | 0123500 | "이시카리 시" |
 | PointSeismicIntensityKR | ”震度観測点”<br>"진도 관측점" | 0123500 | "이시카리 시 하나가와" |
