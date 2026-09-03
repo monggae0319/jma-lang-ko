@@ -1,6 +1,6 @@
 # JMA-LANG-KO
 
-**JMA-LANG-KO**는 일본 기상청(JMA, Japan Meteorological Agency)의 지진·해일 정보에서 사용되는 일본어 지역명, 진앙명 등을 한국어로 변환하는 라이브러리입니다.  
+**JMA-LANG-KO**는 일본 기상청(JMA, Japan Meteorological Agency)의 기상·지진·해일·화산 정보에서 사용되는 일본어 지역명, 진앙명 등을 한국어로 변환하는 라이브러리입니다.
 Node.js 환경에서 간단히 불러와 사용할 수 있습니다.
 
 ---
@@ -14,15 +14,17 @@ npm install jma-lang-ko
 ## 🔎사용 예시
 
 ```js
-import {earthquake, tsunami} from 'jma-lang-ko'
+import {earthquake, tsunami, weather} from 'jma-lang-ko'
 
 console.log(earthquake.EarthquakeWarningKR('31'))
 // 출력 예시: 긴급지진속보(경보)
 console.log(tsunami.TsunamiWarningKR('00'))
 // 출력 예시: 해일 없음
+console.log(weather.AreaInformationCityKR('1310300'))
+// 출력 예시: 미나토 구
 ```
 
-```earthquake```, ```tsunami```, ```volcano``` 함수는 ```string | number``` 타입의 코드를 입력받을 수 있습니다.
+```earthquake```, ```tsunami```, ```volcano```, ```weather``` 함수는 ```string | number``` 타입의 코드를 입력받을 수 있습니다.
 
 ```jma``` 함수는 ```string``` 타입을 지원합니다.
 
@@ -59,6 +61,15 @@ console.log(tsunami.TsunamiWarningKR('00'))
 | --- | --- | :-: | --- |
 | VolcanicWarningKR | ”警報等情報要素／噴火警報・予報等”<br>"경보 등 정보 요소 / 분화경보・예보 등" | 11 | "레벨 1 (활화산인 것에 유의)" |
 | PointVolcanoKR | ”火山名”<br>"화산명" | 101 | "시레토코 이오 산" |
+
+### weather
+| 함수명 | 코드 종류 | 입력값 | 출력값 |
+| --- | --- | :-: | --- |
+| AreaForecastLocalMPrefectureKR | ”気象警報・注意報（府県予報区等）”<br>"기상경보・주의보(부현 예보구 등)" | 020000 | "아오모리 현" |
+| AreaForecastLocalMSubdivisionKR | ”気象警報・注意報（一次細分区域等）”<br>"기상경보・주의보(1차 세분 구역 등)" | 011000 | "소야 지방" |
+| AreaForecastLocalMCitySummaryKR | ”気象警報・注意報（市町村等をまとめた地域等）”<br>"기상경보・주의보(시정촌 등을 묶은 지역 등)" | 11011 | "소야 북부" |
+| AreaInformationCityKR | ”気象警報・注意報（市町村等）”<br>"기상경보・주의보(시정촌 등)" | 1310300 | "미나토 구" |
+| AreaInformationCityRiverKR | ”指定河川洪水予報”<br>"지정 하천 홍수예보" | 1310300 | "미나토 구" |
 
 ### jma
 | 함수명 | 코드 종류 | 입력값 | 출력값 |
