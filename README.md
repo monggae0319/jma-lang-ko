@@ -67,7 +67,7 @@ console.log(weather.AreaInformationCityKR('1310300'))
 | --- | --- | :-: | --- |
 | AreaForecastLocalMPrefectureKR | ”気象警報・注意報（府県予報区等）”<br>"기상경보・주의보(부현 예보구 등)" | 020000 | "아오모리 현" |
 | AreaForecastLocalMSubdivisionKR | ”気象警報・注意報（一次細分区域等）”<br>"기상경보・주의보(1차 세분 구역 등)" | 011000 | "소야 지방" |
-| AreaForecastLocalMCitySummaryKR | ”気象警報・注意報（市町村等をまとめた地域等）”<br>"기상경보・주의보(시정촌 등을 묶은 지역 등)" | 11011 | "소야 북부" |
+| AreaForecastLocalMCitySummaryKR | ”気象警報・注意報（市町村等をまとめた地域等）”<br>"기상경보・주의보(시정촌 등을 묶은 지역 등)" | 011011 | "소야 북부" |
 | AreaInformationCityKR | ”気象警報・注意報（市町村等）”<br>"기상경보・주의보(시정촌 등)" | 1310300 | "미나토 구" |
 | AreaInformationCityRiverKR | ”指定河川洪水予報”<br>"지정 하천 홍수예보" | 1310300 | "미나토 구" |
 

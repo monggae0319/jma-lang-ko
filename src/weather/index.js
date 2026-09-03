@@ -33,7 +33,7 @@ export const weather = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * weather.AreaForecastLocalMCitySummaryKR("11011"); // "소야 북부"
+        * weather.AreaForecastLocalMCitySummaryKR("011011"); // "소야 북부"
     */
     AreaForecastLocalMCitySummaryKR : createTranslator(weatherCitySummary),
 
