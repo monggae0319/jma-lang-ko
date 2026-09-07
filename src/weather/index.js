@@ -56,4 +56,15 @@ export const weather = {
         * weather.AreaInformationCityRiverKR("1310300"); // "미나토 구"
     */
     AreaInformationCityRiverKR : createTranslator(weatherCityRiver),
+
+
+    /**
+     * 코드 종류 : ”府県天気予報等” | "부현 날씨 예보 등"
+        * @param {string | number} value - 변환할 코드 값
+        * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
+        *
+        * @example
+        * weather.AreaInformationCityRiverKR("1310300"); // "미나토 구"
+    */
+    ForecastPoint : createTranslator(weatherCityRiver),
 }
