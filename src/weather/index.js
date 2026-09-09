@@ -3,6 +3,7 @@ import weatherSubdivision from '../data/weather/1saibun.json' with {type : 'json
 import weatherCitySummary from '../data/weather/city_sum.json' with {type : 'json'};
 import weatherCity from '../data/weather/city.json' with {type : 'json'};
 import weatherCityRiver from '../data/weather/city_river.json' with {type : 'json'};
+import weatherForecast from '../data/weather/forecast.json' with {type : 'json'};
 
 import { createTranslator } from '../core/createTranslator.js';
 
@@ -64,7 +65,7 @@ export const weather = {
         * @returns {string} 대응되는 한국어 문자열 (없으면 원본 값 반환)
         *
         * @example
-        * weather.AreaInformationCityRiverKR("1310300"); // "미나토 구"
+        * weather.AreaInformationCityRiverKR("011000"); // "홋카이도 소야 지방"
     */
-    ForecastPoint : createTranslator(weatherCityRiver),
+    ForecastPoint : createTranslator(weatherForecast),
 }

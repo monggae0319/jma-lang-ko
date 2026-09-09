@@ -70,6 +70,7 @@ console.log(weather.AreaInformationCityKR('1310300'))
 | AreaForecastLocalMCitySummaryKR | ”気象警報・注意報（市町村等をまとめた地域等）”<br>"기상경보・주의보(시정촌 등을 묶은 지역 등)" | 011011 | "소야 북부" |
 | AreaInformationCityKR | ”気象警報・注意報（市町村等）”<br>"기상경보・주의보(시정촌 등)" | 1310300 | "미나토 구" |
 | AreaInformationCityRiverKR | ”指定河川洪水予報”<br>"지정 하천 홍수예보" | 1310300 | "미나토 구" |
+| ForecastPoint | ”府県天気予報等”<br>"부현 날씨 예보 등" | 011000 | "홋카이도 소야 지방" |
 
 ### jma
 | 함수명 | 코드 종류 | 입력값 | 출력값 |
